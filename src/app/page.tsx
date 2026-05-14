@@ -129,7 +129,7 @@ function Navbar() {
             </a>
           ))}
         </div>
-        <GlowButton href="https://github.com/yourusername/carouselai">
+        <GlowButton href="https://github.com/SREEGEETHES/Carousel-AI.git">
           <Star className="w-4 h-4" />
           Star on GitHub
         </GlowButton>
@@ -180,7 +180,7 @@ function Hero() {
           transition={{ duration: 0.5, delay: 0.4 }}
           className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <GlowButton href="https://github.com/yourusername/carouselai" primary>
+          <GlowButton href="https://github.com/SREEGEETHES/Carousel-AI.git" primary>
             <GitBranch className="w-4 h-4" />
             View on GitHub
           </GlowButton>
@@ -382,7 +382,7 @@ function HowItWorks() {
 
 /* ─── INSTALL ─── */
 function Install() {
-  const code = `git clone https://github.com/yourusername/carouselai
+  const code = `git clone https://github.com/SREEGEETHES/Carousel-AI.git
 cd carouselai && docker compose up`;
 
   return (
@@ -422,7 +422,7 @@ cd carouselai && docker compose up`;
           <p className="mt-5 text-sm text-zinc-500">
             Full setup instructions available in the{" "}
             <a
-              href="https://github.com/yourusername/carouselai#readme"
+              href="https://github.com/SREEGEETHES/Carousel-AI.git#readme"
               className="text-lime-400 hover:text-lime-300 transition-colors"
             >
               GitHub README
@@ -505,7 +505,7 @@ function FinalCTA() {
         </motion.p>
 
         <motion.div {...fadeUp}>
-          <GlowButton href="https://github.com/yourusername/carouselai" primary>
+          <GlowButton href="https://github.com/SREEGEETHES/Carousel-AI.git" primary>
             <GitBranch className="w-4 h-4" />
             Star on GitHub
           </GlowButton>
@@ -554,11 +554,11 @@ function Footer() {
             </div>
             <div className="space-y-3">
               <p className="font-medium text-white text-xs uppercase tracking-wider text-zinc-400">Source</p>
-              <a href="https://github.com/yourusername/carouselai" className="flex items-center gap-1.5 text-zinc-500 hover:text-lime-400 transition-colors" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/SREEGEETHES/Carousel-AI.git" className="flex items-center gap-1.5 text-zinc-500 hover:text-lime-400 transition-colors" target="_blank" rel="noopener noreferrer">
                 <GitBranch className="w-3.5 h-3.5" /> GitHub
               </a>
-              <a href="https://github.com/yourusername/carouselai#readme" className="block text-zinc-500 hover:text-lime-400 transition-colors" target="_blank" rel="noopener noreferrer">Docs</a>
-              <a href="https://github.com/yourusername/carouselai/issues" className="block text-zinc-500 hover:text-lime-400 transition-colors" target="_blank" rel="noopener noreferrer">Issues</a>
+              <a href="https://github.com/SREEGEETHES/Carousel-AI.git#readme" className="block text-zinc-500 hover:text-lime-400 transition-colors" target="_blank" rel="noopener noreferrer">Docs</a>
+              <a href="https://github.com/SREEGEETHES/Carousel-AI.git/issues" className="block text-zinc-500 hover:text-lime-400 transition-colors" target="_blank" rel="noopener noreferrer">Issues</a>
             </div>
             <div className="space-y-3">
               <p className="font-medium text-white text-xs uppercase tracking-wider text-zinc-400">Connect</p>
